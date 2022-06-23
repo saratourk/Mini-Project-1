@@ -15,5 +15,23 @@ class ViewController: UIViewController {
     }
 
 
+    @IBOutlet weak var Label: UILabel!
+    
+    @IBAction func Button(_ sender: Any) {
+//        var fact = "facts abt me"
+//        Label.text =
+//        NSString *fact = @"\n";
+//        myLabelText = [myLabelText stringByReplacingOccurrencesOfString:@"\\n" withString:myNewLineStr];
+//
+//        myLabel.text = myLabelText;
+        Label.numberOfLines = 0
+        Label.text = "I love any song by Billy Joel \n I like to read \n I play piano"
+        
+        myLabelTwo.text = myLabelTwoText;
+        LabelTwo.numberOfLines = 0
+        LabelTwo.text = "I "
+    }
+    
+    
 }
 
